@@ -48,8 +48,10 @@ enum Flavor {
 }
 
 ///Inicia o flavor passado
-void initFlavor(Flavor flavor) {
+void initFlavor(Flavor flavor) async {
   App.flavorConfig = flavor;
+
+  WidgetsFlutterBinding.ensureInitialized();
 
   runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
