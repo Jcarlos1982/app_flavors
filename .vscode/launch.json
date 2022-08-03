@@ -1,0 +1,64 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Desenvolvimento",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/flavors/main_desenv.dart",
+                "--flavor",
+                "desenv"
+            ]
+        },
+        {
+            "name": "Homologacao",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/flavors/main_homolog.dart",
+                "--flavor",
+                "homolog"
+            ]
+        },
+        {
+            "name": "Piloto",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/flavors/main_piloto.dart",
+                "--flavor",
+                "piloto"
+            ]
+        },
+        {
+            "name": "Incidentes",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/flavors/main_incidentes.dart",
+                "--flavor",
+                "incidentes"
+            ]
+        },
+        {
+            "name": "Producao",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/flavors/main_producao.dart",
+                "--flavor",
+                "producao"
+            ]
+        },
+        
+    ]
+}
