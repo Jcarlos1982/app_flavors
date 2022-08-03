@@ -8,13 +8,13 @@ import 'package:flutter_modular/flutter_modular.dart';
 enum Flavor {
   DESENV(
     appName: 'appDesenv',
-    baseUrl: 'https//ambiente_desenv.br',
+    baseUrl: 'https://ambiente_desenv.br',
     sso: 'https://sso_url_desenv',
     showDebugBanner: true,
   ),
   HOMOLOG(
     appName: 'appHomolog',
-    baseUrl: 'https//ambiente_homolog.br',
+    baseUrl: 'https://ambiente_homolog.br',
     sso: 'https://sso_url_homolog',
   ),
   PILOTO(
@@ -24,13 +24,13 @@ enum Flavor {
   ),
   INCIDENTES(
     appName: 'appIncidentes',
-    baseUrl: 'https//ambiente_incidentes.br',
+    baseUrl: 'https://ambiente_incidentes.br',
     sso: 'https://sso_url_incidentes',
   ),
 
   PRODUCAO(
     appName: 'appProducao',
-    baseUrl: 'https//ambiente_producao.br',
+    baseUrl: 'https://ambiente_producao.br',
     sso: 'https://sso_url_producao',
   );
 
