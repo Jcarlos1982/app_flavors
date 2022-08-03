@@ -13,9 +13,18 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(App.flavor.baseUrl),
+      appBar: AppBar(
+        title: Text(App.flavor.appName),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(App.flavor.baseUrl),
+            Text(App.flavor.sso),
+          ],
         ),
-        body: Container());
+      ),
+    );
   }
 }

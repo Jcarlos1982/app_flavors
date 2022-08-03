@@ -6,7 +6,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 ///Inicia o flavor passado
 void initFlavor(Flavor flavor) {
-  App.appFlavor = flavor;
+  App.flavorConfig = flavor;
 
   runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
