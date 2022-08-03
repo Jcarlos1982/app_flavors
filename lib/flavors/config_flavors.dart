@@ -1,5 +1,10 @@
 // ignore_for_file: constant_identifier_names
 
+import 'package:app_flavors/app/app_module.dart';
+import 'package:app_flavors/app/app_widget.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+
 enum Flavor {
   DESENV(
     appName: 'appDesenv',
@@ -40,6 +45,13 @@ enum Flavor {
     this.sso = '',
     this.showDebugBanner = false,
   });
+}
+
+///Inicia o flavor passado
+void initFlavor(Flavor flavor) {
+  App.flavorConfig = flavor;
+
+  runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
 
 class App {
