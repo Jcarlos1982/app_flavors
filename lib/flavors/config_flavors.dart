@@ -1,11 +1,21 @@
 // ignore_for_file: constant_identifier_names
 
 enum Flavor {
-  DESENV(baseUrl: 'https//ambiente_desenv.br'),
-  HOMOLOG(baseUrl: ''),
-  PILOTO(baseUrl: ''),
-  INCIDENTES(baseUrl: ''),
-  PRODUCAO(baseUrl: '');
+  DESENV(
+    baseUrl: 'https//ambiente_desenv.br',
+  ),
+  HOMOLOG(
+    baseUrl: 'https//ambiente_homolog.br',
+  ),
+  PILOTO(
+    baseUrl: 'https//ambiente_piloto.br',
+  ),
+  INCIDENTES(
+    baseUrl: 'https//ambiente_incidentes.br',
+  ),
+  PRODUCAO(
+    baseUrl: 'https//ambiente_producao.br',
+  );
 
   final String baseUrl;
 
@@ -15,22 +25,5 @@ enum Flavor {
 class App {
   static Flavor? appFlavor;
 
-  static String get name => appFlavor?.name ?? '';
-
-  static Flavor get flavor {
-    switch (appFlavor) {
-      case Flavor.DESENV:
-        return Flavor.DESENV;
-      case Flavor.HOMOLOG:
-        return Flavor.HOMOLOG;
-      case Flavor.PILOTO:
-        return Flavor.PILOTO;
-      case Flavor.INCIDENTES:
-        return Flavor.INCIDENTES;
-      case Flavor.PRODUCAO:
-        return Flavor.PRODUCAO;
-      default:
-        return Flavor.DESENV;
-    }
-  }
+  static Flavor get flavor => appFlavor ?? Flavor.DESENV;
 }
