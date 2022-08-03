@@ -14,7 +14,7 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(App.title),
+          title: Text(App.flavor.baseUrl),
         ),
         body: Container());
   }
