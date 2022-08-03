@@ -1,0 +1,5 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_piloto.dart
+ASSET_PREFIX=piloto
+BUNDLE_NAME=App Name - Piloto
