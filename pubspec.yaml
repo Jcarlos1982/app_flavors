@@ -104,10 +104,10 @@ flavorizr:
   flavors:
     desenv:
       app:
-        name: "AppName - Desenvolvimento"
+        name: "AppName - Desenvolvimento"     
 
       android:
-        applicationId: "com.example.desenv"
+        applicationId: "com.example.desenv"              
 
       ios:
         bundleId: "com.example.desenv"
