@@ -3,3 +3,4 @@
 FLUTTER_TARGET=lib/main_homolog.dart
 ASSET_PREFIX=homolog
 BUNDLE_NAME=App Name - Homologação
+BUNDLE_DISPLAY_NAME=App Name - Homologação

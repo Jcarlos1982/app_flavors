@@ -3,3 +3,4 @@
 FLUTTER_TARGET=lib/main_incidentes.dart
 ASSET_PREFIX=incidentes
 BUNDLE_NAME=App Name - Incidentes
+BUNDLE_DISPLAY_NAME=App Name - Incidentes

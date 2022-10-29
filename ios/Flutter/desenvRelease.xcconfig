@@ -3,3 +3,4 @@
 FLUTTER_TARGET=lib/main_desenv.dart
 ASSET_PREFIX=desenv
 BUNDLE_NAME=AppName - Desenvolvimento
+BUNDLE_DISPLAY_NAME=AppName - Desenvolvimento

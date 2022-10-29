@@ -12,7 +12,7 @@
                 "-t",
                 "lib/flavors/desenv.dart",
                 "--flavor",
-                "meuApp-desenv"
+                "desenv"
             ]
         },
         {

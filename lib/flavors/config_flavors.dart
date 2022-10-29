@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+// ignore_for_file: constant_identifier_names, avoid_classes_with_only_static_members
 
 import 'package:app_flavors/app/app_module.dart';
 import 'package:app_flavors/app/app_widget.dart';
@@ -48,7 +48,7 @@ enum Flavor {
 }
 
 ///Inicia o flavor passado
-void initFlavor(Flavor flavor) async {
+void initFlavor(Flavor flavor) {
   App.flavorConfig = flavor;
 
   WidgetsFlutterBinding.ensureInitialized();
