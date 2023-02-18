@@ -1,4 +1,4 @@
-import 'package:app_flavors/flavors/config_flavors.dart';
+import 'package:app_flavors/flavors_config/config_flavors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

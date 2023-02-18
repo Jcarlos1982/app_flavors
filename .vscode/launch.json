@@ -10,7 +10,7 @@
             "type": "dart",
             "args": [
                 "-t",
-                "lib/flavors/desenv.dart",
+                "lib/main_desenv.dart",
                 "--flavor",
                 "desenv"
             ]
@@ -21,7 +21,7 @@
             "type": "dart",
             "args": [
                 "-t",
-                "lib/flavors/homolog.dart",
+                "lib/main_homolog.dart",
                 "--flavor",
                 "homolog"
             ]
@@ -32,7 +32,7 @@
             "type": "dart",
             "args": [
                 "-t",
-                "lib/flavors/piloto.dart",
+                "lib/main_piloto.dart",
                 "--flavor",
                 "piloto"
             ]
@@ -43,7 +43,7 @@
             "type": "dart",
             "args": [
                 "-t",
-                "lib/flavors/incidentes.dart",
+                "lib/main_incidentes.dart",
                 "--flavor",
                 "incidentes"
             ]
@@ -54,7 +54,7 @@
             "type": "dart",
             "args": [
                 "-t",
-                "lib/flavors/producao.dart",
+                "lib/main_producao.dart",
                 "--flavor",
                 "producao"
             ]
