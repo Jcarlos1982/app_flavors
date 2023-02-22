@@ -1,4 +1,4 @@
-# Flutter Flavors
+# App Flavors
 
 Exemplo de criação de Flavors para segmentação de ambientes e recursos.
 
@@ -12,7 +12,7 @@ Exemplo de criação de Flavors para segmentação de ambientes e recursos.
 
 **launch.json ->** Contém a configuração de inicialização de cada flavor, com seus respectivos caminhos
 
-**flavors/ ->** esse diretório contém os códigos de incialização dos flavors e variáveis de ambiente 
+**flavors_config/ ->** esse diretório contém os códigos de incialização dos flavors e variáveis de ambiente 
 
 **main.dart ->** Contém a inicialização que aponta para o Flavor.DESENV como padrão, caso não seja 
 
@@ -25,10 +25,10 @@ Após a cópia dos arquivos devemos rodar no terminal, dentro da pasta da aplica
 
 Esse comando gera, nas pastas nativas do seu projeto(Android e ios), as configurações de Flavors, atualiza o build.gradle, o info.plist e gera arquivos main para cada ambiente mapeado no pubspec.yaml. 
 
-Também irá gerar o diretório pages/ , que deverá ser apagado, e vários arquivos main_nomeDoAmbienteDoFlavor,
+Também irá gerar o diretório pages/ , que deverá ser apagado. Também gerará vários arquivos "main_nomeDoAmbienteDoFlavor.dart",
 
-que também deverão ser apagados.
+que deverão ser substituidos pelos contidos nesse repositório, os quais apontam para a função initFlavor, que recebe um flavor e monta a sua configuração.
 
- Ou seja, iremos manter apenas a pasta flavors/ com seus arquivos, e o arquivo main.dart, parecendo-se com a imagem abaixo:
+ Ou seja, iremos manter apenas a pasta flavors_config/ com seus arquivos, o arquivo main.dart e os arquivos "main_nomeDoAmbienteDoFlavor.dart" que foram substituídos pelos desse repositório, parecendo-se com a imagem abaixo:
 
 ![alt tag](arquivos.JPG)
